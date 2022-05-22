@@ -16,7 +16,7 @@ body {
   padding: 10px;
 }
 .specific {
-  width: 160px;
+  width: 200px;
   height: 14px;
   color: #e3630e;
   font-family: Montserrat;
@@ -35,7 +35,7 @@ body {
 }
 .mydiscription {
   color: #595959;
-  font-size: 14px;
+  font-size: 14px !important;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -53,6 +53,11 @@ body {
 .project-menu {
   display: flex;
   flex-direction: column;
+}
+.myproject-text {
+  display: grid;
+  font-weight: 400;
+  font-size: 11px;
 }
 .number {
   display: flex;
@@ -73,6 +78,14 @@ body {
   line-height: 24px;
   letter-spacing: 0.42px;
   padding-top: 15px;
+}
+.myproject-img {
+  width: 100%;
+}
+.grid {
+  display: grid;
+  grid-template: 1fr/1fr 1fr;
+  column-gap: 20px;
 }
 .number a :hover {
   color: #e3630e;
@@ -229,6 +242,9 @@ body {
 .social-icon a :hover {
   background: #e3630e;
 }
+.margin-right-5 {
+  margin-right: 5px;
+}
 .techskillstitle {
   font-size: 22px;
   font-weight: 700;
@@ -319,16 +335,34 @@ body {
   .fullname {
     font-size: 21px;
   }
+  .saitbar {
+    min-width: 300px;
+  }
 }
+
 @media (min-width: 1000px) {
   .saitbar {
-    width: 450px;
+    min-width: 450px;
   }
   .fullname {
     margin-right: 10px;
   }
   .number {
     flex-direction: row;
+  }
+  .myproject-text { 
+    font-size: 10px;
+  }
+  
+}
+@media (min-width: 1180px) {
+  .myproject-text { 
+    font-size: 9px;
+  }
+}
+@media (min-width: 1200px) {
+  .myproject-text { 
+    font-size: 12px;
   }
 }
 @media (min-width: 1400px) {
@@ -338,7 +372,9 @@ body {
   .saitbar {
     width: 700px;
   }
-
+  .myproject-text { 
+    font-size: 16px;
+  }
   .dots {
     display: block;
   }
@@ -348,4 +384,5 @@ body {
   .fullname {
     font-size: 45px;
   }
+  
 }
