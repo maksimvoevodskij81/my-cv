@@ -28,6 +28,7 @@ body {
 }
 
 .fullname {
+  /* color: #e3630e; */
   color: #000000;
   font-size: 25px;
   font-weight: 700;
@@ -35,6 +36,7 @@ body {
 }
 .mydiscription {
   color: #595959;
+  /* color: #ffffff; */
   font-size: 14px !important;
   font-weight: 400;
   line-height: 24px;
@@ -187,9 +189,15 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.flex {
+  display: flex;
+}
 .myfoto {
   object-fit: cover;
   width: 100%;
+  max-width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .saitbar__video-conteainer {
   position: relative;
