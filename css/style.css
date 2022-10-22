@@ -28,7 +28,6 @@ body {
 }
 
 .fullname {
-  /* color: #e3630e; */
   color: #000000;
   font-size: 25px;
   font-weight: 700;
@@ -36,7 +35,6 @@ body {
 }
 .mydiscription {
   color: #595959;
-  /* color: #ffffff; */
   font-size: 14px !important;
   font-weight: 400;
   line-height: 24px;
@@ -44,6 +42,13 @@ body {
   margin-top: 24px;
   margin-left: 40px;
   margin-right: 60px;
+}
+.margin-left-10{
+  margin-left: 10px;
+}
+.project-achievement{
+  display: block;
+  margin-bottom: 10px;
 }
 .projecttitle {
   font-size: 22px;
@@ -55,6 +60,10 @@ body {
 .project-menu {
   display: flex;
   flex-direction: column;
+}
+.project-menu-img-wrapper{
+  display: block;
+  max-width: 230px;
 }
 .myproject-text {
   display: grid;
@@ -86,31 +95,20 @@ body {
 }
 .grid {
   display: grid;
-  grid-template: 1fr/1fr 1fr;
+  grid-template: 1fr/20% 1fr;
   column-gap: 20px;
 }
 .number a :hover {
   color: #e3630e;
 }
 .skills {
-  color: #595959;
+  display: block;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
   color: #000000;
-  font-family: "Montserrat - Bold";
-  font-weight: 700;
-  letter-spacing: 0.42px;
-  font-family: "Montserrat - Bold";
-  font-weight: 700;
   letter-spacing: 0.42px;
   font-family: "Montserrat - Regular";
-  font-weight: 400;
-  letter-spacing: 0.42px;
-  color: #000000;
-  font-family: "Montserrat - Regular";
-  font-weight: 400;
-  letter-spacing: 0.42px;
 }
 .mywork {
   font-size: 22px;
@@ -120,10 +118,9 @@ body {
   padding-right: 40px;
 }
 .datawork {
-  color: #a8a8a8;
-  font-size: 12px;
+  color: #000000;
+  font-size: 13px;
   font-weight: 400;
-  margin-top: 10px;
   margin-bottom: 10px;
 }
 .myfirstexpierens {
@@ -142,8 +139,12 @@ body {
   font-weight: 700;
   line-height: 24px;
   padding-top: 10px;
-  padding-right: 40px;
   margin-bottom: 15px;
+}
+.flex-work-title{
+  display: flex;
+  margin-top: 10px;
+
 }
 .workexperience {
   color: #ff6b08;
@@ -155,6 +156,13 @@ body {
   line-height: 24px;
   margin-top: 40px;
   margin-bottom: 15px;
+}
+.flex-education{
+  display: flex;
+  flex-wrap: wrap
+}
+.margin-right-50{
+  margin-right: 280px;
 }
 .education {
   padding-top: 10px;
@@ -191,13 +199,12 @@ body {
 }
 .flex {
   display: flex;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .myfoto {
   object-fit: cover;
   width: 100%;
-  max-width: 300px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 .saitbar__video-conteainer {
   position: relative;
@@ -246,6 +253,15 @@ body {
   margin-top: 15px;
   object-fit: cover;
   width: 18px;
+}
+.work-img{
+  object-fit: cover;
+  width: 100%;
+  margin-left: 10px;
+}
+.wrapper-work-img{
+   max-width: 50px;
+   display: block;
 }
 .social-icon a :hover {
   background: #e3630e;
@@ -320,6 +336,7 @@ body {
   .mainaboutme {
     background: #ffffff;
     padding-left: 30px !important;
+    padding-top: 50px;
   }
   .mydiscription {
     font-size: 10px;
@@ -387,7 +404,7 @@ body {
     display: block;
   }
   .mainaboutme {
-    padding-top: 200px !important;
+    padding-top: 50px !important;
   }
   .fullname {
     font-size: 45px;
