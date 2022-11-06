@@ -65,6 +65,10 @@ body {
   display: block;
   max-width: 230px;
 }
+.project-menu-img-wrapper_git{
+  display: block;
+  max-width: 150px;
+}
 .myproject-text {
   display: grid;
   font-weight: 400;
@@ -97,6 +101,7 @@ body {
   display: grid;
   grid-template: 1fr/20% 1fr;
   column-gap: 20px;
+  align-items: center;
 }
 .number a :hover {
   color: #e3630e;
