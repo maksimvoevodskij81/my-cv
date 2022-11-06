@@ -24,11 +24,11 @@ body {
   width: 200px;
   height: 14px;
   color: #e3630e;
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.42px;
+  margin-left: 0;
 }
 
 .fullname {
@@ -43,6 +43,7 @@ body {
   line-height: 24px;
   margin-top: 24px;
   margin-right: 60px;
+  margin-left: 0;
 }
 .margin-left-10{
   margin-left: 10px;
