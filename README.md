@@ -1,2 +1,2 @@
 
-https://maksimvoevodskij81.github.io/rsschool-cv/
+https://maksimvoevodskij81.github.io/my-cv/
